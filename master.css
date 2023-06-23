@@ -1,0 +1,54 @@
+.parent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 395px;
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    transition: .3s;
+}
+
+/* .parent:hover {
+    width: 320px;
+    height: 405px;
+    box-shadow: 0px 2px 7px 8px silver;
+} */
+
+.parent div {
+    display: grid;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.screen {
+    background-color: #a3d3c9 !important;
+    grid-column: span 4;
+    height: 60px;
+    border-radius: 7% !important;
+}
+
+.parent div {
+    background-color: white;
+}
+
+
+.orange {
+    background-color: #e56228 !important;
+    grid-column: 3 / 5;
+}
+
+.row {
+    grid-row: 6 / 8;
+    grid-column: 4;
+}
