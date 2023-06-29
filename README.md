@@ -1,2 +1,2 @@
 # S.Calculator
-Calculator Using HTML & CSS (using div &amp; grid)
+Calculator Using HTML & CSS (using div & grid)
