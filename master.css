@@ -28,14 +28,14 @@
 .parent div {
     display: grid;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .screen {
     background-color: #a3d3c9 !important;
     grid-column: span 4;
     height: 60px;
-    border-radius: 7% !important;
+    border-radius: 7px !important;
 }
 
 .parent div {
